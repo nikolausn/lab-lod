@@ -1,0 +1,39 @@
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix schema: <http://schema.org/>
+prefix purl: <http://purl.org/library/>
+prefix htrc: <http://wcsa.htrc.illinois.edu/> 
+prefix edm: <http://www.europeana.eu/schemas/edm/> 
+
+
+SELECT ?a
+WHERE
+ {
+  a a htrc:Worsket.
+
+}
+
+
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix schema: <http://schema.org/>
+prefix purl: <http://purl.org/library/>
+prefix htrc: <http://wcsa.htrc.illinois.edu/> 
+prefix edm: <http://www.europeana.eu/schemas/edm/> 
+
+
+SELECT distinct ?p
+WHERE
+ {
+  <http://htrc.hathitrust.org/wsid/189324113> ?p ?b.
+
+}
+
+
+SELECT distinct ?p
+WHERE
+ {
+  <http://htrc.hathitrust.org/wsid/189324103> ?p ?b.
+
+}
+
